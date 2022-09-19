@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+    <style>
+        .subscribe
+        {
+            background-color:red ;
+            color:white ;
+            border: none ;
+            height: 30px;
+            width: 100px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 0.5s;
+
+
+        }
+
+        .subscribe:hover
+        {
+opacity:0.8;
+
+        }
+
+        .subscribe:active
+        {
+            opacity: 0.7;
+        }
+        .join
+        {
+
+            color:rgb(73, 73, 220) ;
+border: 1px solid rgb(73, 73, 220);
+cursor: pointer;
+transition: background-color 0.15s color 2s;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 2px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+background-image: url(https://i.stack.imgur.com/tNCp7.jpg);
+        }
+
+        .join:hover
+        {
+
+            background-color: rgb(73, 73, 220);
+            color: white;
+        }
+
+        .join:active
+        {
+            opacity: 2s;
+        }
+        .Tweet
+        {
+background-color: rgb(18, 141, 218);
+font-size: 15PX;
+color: white;
+border: none;
+height: 45px;
+width: 90px;
+border-radius: 30px;
+
+        }
+
+        .Tweet:hover
+        {
+            box-shadow: 10px 10px 10px rgb(0 0 0/10%);
+        }
+
+        .Tweet:active
+        {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <button class="subscribe">subscribe</button>
+<button class="join">join my channel</button>
+<button class="Tweet">Tweet</button>
+<marquee direction="right" behaviour="scrolling"
+>
+    heyy!!
+</marquee>
+
+
+    <h3>REGISTRATION FORM</h3>
+    <TABLE>
+        <FORM>
+            <TR>
+                <TD> <label for="fname">FIRST NAME :</label></TD>
+                <TD> <input type="text" name="fname"> </TD>
+            </TR>
+            <TR>
+                <TD><label for="lname">LAST NAME :</label></TD>
+                <TD><input type="text" name="lname"></TD>
+            </TR>
+            <TR>
+                <TD><label for="dob">DATE OF BIRTH :</label></TD>
+                <TD> <input type="date" name="dob"></TD>
+            </TR>
+            <TR>
+                <TD><label for="gender">GENDER :</label></TD>
+                <TD> <input type="radio" name="gender" id="male">MALE
+                    <input type="radio" name="gender" id="female">FEMALE<BR>
+                    <input type="radio" name="gender" id="not">PREFER NOT TO SAY</TD>
+            </TR>
+            <TR>
+                <TD> <label for="contact">CONTACT NUMBER :</label></TD>
+                <TD> <input type="tel" name="contact"></TD>
+            </TR>
+            <TR>
+                <TD> <label for="hobbies">HOBBIES :</label></TD>
+                <TD><input type="checkbox">CRICKET <BR>
+                    <input type="checkbox">PAINTING<br>
+                    <input type="checkbox">READING<BR>
+                    <input type="checkbox">BADMINTON<BR>
+                    <input type="checkbox">CHESS<BR>
+                    <input type="checkbox">TRAVELLING</TD>
+            </TR>
+            <TR>
+                <TD><label for="subject">SUBJECT :</label></TD>
+                <TD> <select name="subject">
+                    <option value="select">SELECT</option>
+                    <option value="HTML">HTML</option>
+                    <option value="C LANGUAGE">C LANGUAGE</option>
+                    <option value="DATABASE">DATABASE</option>
+                    <option value="JAVA">JAVA</option>
+                    <option value="PYTHPN">PYTHON</option>
+                    <option value=".NET">.NET</option>
+                    <option value="HARDWARE">HARDWARE</option></select></TD>
+            </TR>
+            <TR>
+                <TD></TD>
+                <TD></TD>
+            </TR>
+            <TR></TR>
+            <TR></TR>
+        </FORM>
+    </TABLE>
+</body>
+</html>
