@@ -50,7 +50,7 @@ padding-left: 20px;
 padding-right: 20px;
 background-image: url(https://i.stack.imgur.com/tNCp7.jpg);
         }
-
+        
         .join:hover
         {
 
@@ -64,7 +64,7 @@ background-image: url(https://i.stack.imgur.com/tNCp7.jpg);
         }
         .Tweet
         {
-background-color: rgb(18, 141, 218);
+            background-color: rgb(18, 141, 218);
 font-size: 15PX;
 color: white;
 border: none;
@@ -91,12 +91,12 @@ border-radius: 30px;
 <button class="Tweet">Tweet</button>
 <marquee direction="right" behaviour="scrolling"
 >
-    heyy!!
+   TABULAR FORM WITH BUTTONS
 </marquee>
 
 
-    <h3>REGISTRATION FORM</h3>
-    <TABLE>
+    <h3 ALIGN="CENTER">REGISTRATION FORM</h3>
+    <TABLE align="CENTER"   >
         <FORM>
             <TR>
                 <TD> <label for="fname">FIRST NAME :</label></TD>
@@ -142,11 +142,23 @@ border-radius: 30px;
                     <option value="HARDWARE">HARDWARE</option></select></TD>
             </TR>
             <TR>
-                <TD></TD>
-                <TD></TD>
+                <TD> <label for="file">UPLOAD FILE HERE:</label></TD>
+                <TD> <input type="file" name="file"></TD>
             </TR>
-            <TR></TR>
-            <TR></TR>
+            <TR><TD><label for="rating">WOULD YOU LIKE TO RATE US:</label></TD>
+            <TD>  <input type="range"></TD></TR>
+
+            <TR>
+
+            <TD><label for="address" align="center">address:</label></TD>
+            <TD><textarea name="address" cols="21" rows="10"></textarea></TD>
+            </TR>
+            <TR>
+                <TD></TD>
+                <TD>
+                    <input type="submit" name="" id="">
+                <input type="reset"></TD>
+            </TR>
         </FORM>
     </TABLE>
 </body>
