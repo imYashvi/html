@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+<style>
+
+    table,tr
+    {
+        align: center
+    }
+    .fb
+    {
+background-color: rgb(16, 74, 155);
+border: none;
+height: 35px;
+width: 180px;
+color: white;
+cursor: pointer;
+
+
+    }
+
+    .fb:active
+    {
+        transform: scale(0.95);
+    }
+
+    .twitter
+    {
+        background-color: skyblue;
+        color: white;
+        border: none;
+height: 35px;
+width: 180px;
+cursor: pointer;
+    }
+    .twitter:active
+    {
+transform: scale(0.95);
+    }
+
+    .signin
+    {
+        background-color: rgb(0, 174, 0);
+        color: white;
+        width: 171px;
+        border: none;
+        height: 25px;
+        cursor: pointer;
+    }
+    .signin:hover
+        {
+
+            background-color:rgb(27, 83, 6);
+            color: rgb(0, 174, 0);
+        }
+    .signin:active
+    {
+        
+
+            opacity: 2s;
+    }
+
+    .google
+    {
+        background-color: rgb(209, 34, 34);
+        color: white;
+        border: none;
+height: 35px;
+cursor: pointer;
+width: 180px;  
+    }
+    .google:active
+    {
+transform: scale(0.95);}
+
+.up
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    align:right;
+    color: blue;
+}
+.last
+{
+    font-size: 11px;
+    align: bottom;
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+    
+</head>
+<body>
+    <p></p>
+    <table align="center">
+
+<tr>
+    <td>Login to your account</td>
+    <td font-size="10px" class="up">Don't have an account? Sign up!</td>
+</tr>
+
+        <tr>
+           
+
+          <td> <input type="text" name="username" placeholder="Username"></td><br><br>
+          <td><button class="fb">Sign In with Facebook</button></td>
+
+        </tr>
+        <tr>
+            <td> <input type="text" name="password" placeholder="Password"></td>
+            <td><button class="twitter">Sign In with Twitter</button></td>
+        </tr>
+        <tr>
+            <td><button class="signin">Sign In</button></td>
+            <td><button class="google">Sign In with Google</button></td>
+        </tr>
+        <tr><td class="last"><label for="checkbox"> </label>
+        <input type="checkbox" name="" id="" >Remember me   </td><td class="last"> Forgot your password?</td></tr>
+    </table>
+</body>
+</html>

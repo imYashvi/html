@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAST</title>
+    <style>
+
+.red
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+    color:  red;
+}
+.table
+{
+    font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(136, 236, 236) ;
+color: rgb(14, 14, 157);
+font-size: 12px;
+font-weight: bold;
+}
+
+
+.required:before {
+            content: "*";
+            font-weight: bold;
+            color: red;
+        }
+        .head
+        {
+            color: brown;
+            background-image: linear-gradient(lightblue , blue);
+        }
+
+        .button
+        {
+            background-color:rgb(99, 99, 248) ;
+            color: white;
+            border-collapse:collapse;
+            border-width: 1px;
+            border-radius: 2PX;
+            cursor: pointer;
+           
+        }
+    </style>
+</head>
+
+<body class="table" >
+    <h2 class="head" align="center">Individual Registration</h2>
+    <table>
+    <table align="center">
+        <p class="red"><b>User Particulars</b></p>
+        <tr>
+            <td class="required">Login ID</td>
+            <td><input type="text" name="login" id=""></td>
+        </tr>
+        <tr>
+             <td class="required">Password</td>
+             <td><input type="password" name="" id="" required></td>
+        
+        </tr>
+
+        <tr>
+            <td class="required">Confirm Password</td>
+            <td><input type="password" name="" id=""></td>
+        </tr>
+    </table>
+
+    <table>
+        <p class="red"><b>Personal Particulars</b></p>
+        <tr>
+            <td class="required">Salutation</td>
+            <td> 
+                <select name="salutation" id="">
+                <option value="select">Select</option>
+                <option value="abc">MR.</option>
+                <option value="mrs">MRS.</option>
+                <option value="miss">MISS</option></select>
+
+
+            
+            </td>
+            <td class="required">First Name</td>
+            <td><input type="text" name="" id="" required></td>
+        </tr>
+
+        <tr>
+            <td>Middle Name</td>
+            <td><input type="text" name="" id="" ></td>
+            <td class="required">Last Name</td>
+            <td><input type="text" name="" id="" required></td>
+        </tr>
+
+        <tr>
+            <td class="required">Residential Status</td>
+            <td><select name="residental status" id="">
+                <option value="select">Select</option>
+                <option value="indian">INDIAN RESIDENT</option>
+                <option value="nri">NRI</option>
+            </select></td>
+            <td class="required">Country</td>
+            <td><select name="country" id="">
+                <option value="select">Select</option>
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+                <option value="america">USA</option>
+                <option value="australia">Australia</option>
+                <option value="poland">Poland</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="required">Email-ID</td>
+            <td><input type="mail" name="" id=""></td>
+            <td class="required">Mobile Number</td>
+            <td><input type="number" name="" id=""></td>
+        </tr>
+    </table>
+        <table>
+        <TR>
+            <p class="red"><B>Account Particulars</B></p>
+            <td class="required">15 Digit Account No</td>
+            <td><input type="number" name="" id=""></td>
+            <td class="required">Nick Name</td>
+            <td><input type="text" name="" id=""></td>
+        </TR>
+        <tr>
+            <td class="required">Fund Transfer</td>
+            <td><select name="option" id="">
+                <option value="select">Select</option>
+                <option value="IMPS">IMPS</option>
+                <option value="RTGS">RTGS</option>
+                <option value="NEFT">NEFT</option>
+            </select></td>
+        </tr>
+    </table>
+    <table> 
+        <td>
+            <p class="red"><B>DECLARATION</B></p>
+            I have read, understood and hereby agree to the Terms and Confirmations in respect of all prodeucts and channels. <br>
+            I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches. I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under his/her joint name respectively. I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.
+        <br><br>
+           
+        </td>
+        
+    </table>
+    <table align="center"><td> <button type="submit" class="button">SUBMIT</button>
+        <button type="reset" class="button">RESET</button></td></table>
+    </table></body>
+</html>
